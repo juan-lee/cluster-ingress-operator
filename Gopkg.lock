@@ -10,6 +10,14 @@
   version = "v0.37.2"
 
 [[projects]]
+  digest = "1:62f97c594e1c02585c8d0272ef6645dbc2d062c6048ef9c267f4dd8aadfdb4f9"
+  name = "github.com/Azure/azure-sdk-for-go"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "b11e4e7e4bf27a4eb96af9db49de9c7509f5bb01"
+  version = "v27.3.0"
+
+[[projects]]
   digest = "1:680b63a131506e668818d630d3ca36123ff290afa0afc9f4be21940adca3f27d"
   name = "github.com/appscode/jsonpatch"
   packages = ["."]
@@ -888,6 +896,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/Azure/azure-sdk-for-go",
     "github.com/aws/aws-sdk-go/aws",
     "github.com/aws/aws-sdk-go/aws/arn",
     "github.com/aws/aws-sdk-go/aws/awserr",
